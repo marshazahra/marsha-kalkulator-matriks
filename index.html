@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Matriks</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Kalkulator Matriks</h1>
+    <p>By: Marsha zahra</p>
+
+    <!-- Matriks A -->
+    <div class="matrix-section">
+      <h3>Matriks A</h3>
+      <table id="matrixA">
+        <tr>
+          <td><input type="number" id="a11" placeholder="0"></td>
+          <td><input type="number" id="a12" placeholder="0"></td>
+        </tr>
+        <tr>
+          <td><input type="number" id="a21" placeholder="0"></td>
+          <td><input type="number" id="a22" placeholder="0"></td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Operasi -->
+    <div class="operation">
+      <select id="operation">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">x</option>
+      </select>
+    </div>
+
+    <!-- Matriks B -->
+    <div class="matrix-section">
+      <h3>Matriks B</h3>
+      <table id="matrixB">
+        <tr>
+          <td><input type="number" id="b11" placeholder="0"></td>
+          <td><input type="number" id="b12" placeholder="0"></td>
+        </tr>
+        <tr>
+          <td><input type="number" id="b21" placeholder="0"></td>
+          <td><input type="number" id="b22" placeholder="0"></td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Tombol Hitung -->
+    <button id="calculate">Hitung</button>
+
+    <!-- Matriks Hasil -->
+    <div class="matrix-section">
+      <h3>Hasil</h3>
+      <table id="resultMatrix">
+        <tr>
+          <td id="result11">0</td>
+          <td id="result12">0</td>
+        </tr>
+        <tr>
+          <td id="result21">0</td>
+          <td id="result22">0</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
